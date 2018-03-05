@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Teste Android</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="search_toolbar_title">Busca</string>
+    <string name="home_toolbar_title">Clima</string>
+    <string name="detail_toolbar_title">Detalhes</string>
+
+    <string name="msg_loading_items">Carregando…</string>
+    <string name="no_favorites_msg">Nenhum favorito salvo</string>
+    <string name="city_label">Cidade</string>
+    <string name="weather_label">Clima</string>
+    <string name="temperature_label">Temperatura</string>
+
+
+</resources>

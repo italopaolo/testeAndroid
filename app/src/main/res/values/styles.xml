@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Text12Black">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text15Black">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+    <style name="Text15BoldBlack" parent="Text15Black">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text20BoldBlack" parent="Text15BoldBlack">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text30BoldBlack" parent="Text15BoldBlack">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Text40BoldBlack" parent="Text15BoldBlack">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Text20White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
