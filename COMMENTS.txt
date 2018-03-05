@@ -1,0 +1,43 @@
+
+ARQUITETURA
+
+A arquitetura escolhida foi MVVM, com a implementação de Databinding
+Escolhi esta arquitetura pela estruturação e separação de responsabilidades das classes, cada uma tem suas responsabilidades definidas e o código fica mais simples de ser entendido, bem como para manutenção e evolução. Esta arquitetura também facilita a realização de testes.
+
+__________________________________
+
+BIBLIOTECAS
+
+Utilizei o Retrofit, para realizar a chamada de Api, é uma biblioteca que facilita muito este tipo de tarefas, e em conjunto com o Gson, já devolve o objeto retornado pela Api parseado e pronto para uso.
+
+RxJava, para programação Reativa, é muito poderosa e com o uso de lambda expression torna o código mais limpo. Exige um grau de abstração mais elevado para entendimento dos códigos.
+
+Groupie, é uma abstração de Adapter, deixa o código mais limpo, com poucas linhas é possível se ter um Adapter para qualquer situação. Com a arquitetura MVVM, a utilização se torna muito prática.
+
+Material Dialog e SweetAlert, são bibliotecas para exibição de dialogs, permitem uma customização interessante, além de produzirem belos efeitos visuais.
+
+Gson, usado para o parse de objetos no formato Json.
+
+Picasso, utilizada para carregamento de imagens.
+
+
+__________________________________
+
+MELHORIAS
+
+Visto que o tempo foi muito corrido em especial para mim neste final de semana, só comecei a trabalhar no projeto após as 22h do domingo, fiz o mais simples para ser rápido, com mais tempo eu teria trabalhado melhor nos layouts, utilizaria constraint layout em algumas telas, para as views se adequarem melhor.
+Faria também um tratamento de erros, como falha de conexão, sem conectividade no device, entre outros.
+Outro ponto, seria implementar algumas animações na tela, na exibição dos itens, para ficar mais natural a transição de views.
+
+__________________________________
+
+PONTOS QUE NÃO FORAM POSSÍVEIS DE ENTREGAR
+
+Devido ao tempo, acabei optando por não implementar a utilização do SQLITE para persistência dos dados. Eu sei utilizar a ferramenta, entendo como funcionam os cursores, abrir conexão para leitura e escrita, a importância de fechar e encerrar os cursores, porém, julguei como mais rápido salvar os dados no SharedPreferences, para conseguir entregar no prazo.
+Outra possibilidade seria utilizar um ORM para salvar os dados no banco local, porém me tomaria mais tempo que a decisão que tomei e que foi implementada.
+
+Não implementei testes unitários, pois não tenho conhecimento, e teria que ler documetações e buscar por exemplos para conseguir implementar.
+
+Um outro ponto que gostaria de ter feito, seria esconder o botão de salvar favorito quando a cidade já estiver salva, mas como podem haver mudanças no clima, eu implementei uma lógica para atualizar os dados, caso a cidade já esteja favoritada.
+
+
